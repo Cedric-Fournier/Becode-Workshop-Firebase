@@ -1,0 +1,7 @@
+#myList ul, #myList li {
+  list-style: none;
+}
+
+#myList ul {
+  margin: 20px;
+}
