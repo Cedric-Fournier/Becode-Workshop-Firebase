@@ -1,5 +1,12 @@
 # Premier Exercice sur Firebase
 
+## Table des matières
+
+  - [Intro](intro.md)
+  - [Premier Exercice](exercice01.md)
+  - [Deuxième Exercice](exercice02.md)  
+  - [Troisème Exercice](exercice03.md)
+
 ## Créer vos objets sur votre DB manuellement
 
 Nous allons maintenant passer à un petit exercice. Allez dans la console Firebase et dans Database, ensuite Premiers Pas dans Realtime Database.
