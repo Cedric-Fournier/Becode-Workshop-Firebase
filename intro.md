@@ -1,11 +1,12 @@
 # Firebase
 
 ## Table des matières
+*Oubliez pas de rester appuyer sur CTRL pour ouvrir un lien*
 
   - [Intro](intro.md)
-  - [Premier Exercice](exercice01.md target="_blank)
-  - [Deuxième Exercice](exercice02.md target="_blank)
-  - [Troisème Exercice](exercice03.md target="_blank)
+  - [Premier Exercice](exercice01.md)
+  - [Deuxième Exercice](exercice02.md)
+  - [Troisème Exercice](exercice03.md)
 
 ## Par où commencer ?
 
