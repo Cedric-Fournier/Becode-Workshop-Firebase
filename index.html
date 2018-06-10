@@ -8,22 +8,63 @@
     <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
     <script>
       // Initialize Firebase
-      var config = {
-        apiKey: "YOU-API-KEY",
-        authDomain: "YOU-AUTH-DOMAIN",
-        databaseURL: "YOU-DATABASE-URL",
-        projectId: "YOU-PROJECT-ID",
-        storageBucket: "YOU-STORAGE-BUCKET",
-        messagingSenderId: "YOU-MESSAGING-SENDER-ID"
+      const config = {
+        apiKey: "AIzaSyB90CMYuzH3AgbDn_8_SCJVBVCrMnDEDao",
+        authDomain: "cedric-fournier.firebaseapp.com",
+        databaseURL: "https://cedric-fournier.firebaseio.com",
+        projectId: "cedric-fournier",
+        storageBucket: "cedric-fournier.appspot.com",
+        messagingSenderId: "105643866558"
       };
       firebase.initializeApp(config);
 
-      var database = firebase.database();
-      
+      const database = firebase.database();
+
+      const keyLang = {
+        birthday: "Anniversaire",
+        city: "Ville",
+        firstname: "Prénom",
+        lastname: "Nom",
+        mail: "E-mail"
+      };
+
+      // var test = {
+      //   firstname: "Prénom",
+      //   lastname: "Nom",
+      //   birthday: "Anniversaire",
+      //   city: "Ville",
+      //   mail: "E-mail"
+      // }
+
+      var rootRef = firebase.database().ref();
+      rootRef.once("value")
+        .then((snapshot) => {
+          snapshot.forEach((item) => {
+            let data = item.val();
+            console.log(data);
+
+            let nodeUser = document.createElement("LI");
+            let nodeUserUL = document.createElement("UL");
+
+            // Object.getOwnPropertyNames renvoit la liste des key sous forme de tableau
+            Object.getOwnPropertyNames(data).forEach((property) => {
+              console.log(property);
+              let propertyValue = document.createTextNode(keyLang[property] + " : " + data[property]);
+              let nodeUserLI = document.createElement("LI");
+              nodeUserLI.appendChild(propertyValue);
+              nodeUserUL.appendChild(nodeUserLI);
+            });
+
+            nodeUser.appendChild(nodeUserUL);
+            document.getElementById("myList").appendChild(nodeUser);
+          });
+        });
+
     </script>
 
   </head>
   <body>
-
+    <ul id="myList">
+    </ul>
   </body>
 </html>
