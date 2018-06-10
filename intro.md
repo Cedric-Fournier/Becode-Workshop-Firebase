@@ -1,7 +1,7 @@
 # Firebase
 
 ## Table des matières
-*Oubliez pas de rester appuyer sur CTRL pour ouvrir un lien*
+*Pensez à rester appuyé sur CTRL pour ouvrir un lien*
 
   - [Intro](intro.md)
   - [Premier Exercice](exercice01.md)
