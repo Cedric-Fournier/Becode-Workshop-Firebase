@@ -30,70 +30,64 @@
         mail: "E-mail"
       };
 
-      // Afficher mes Objets
-      const rootRef = database.ref();
-      rootRef.once("value")
-        .then((snapshot) => {
-          // for(item in snapshot) => {
-          snapshot.forEach((item) => {
-            const data = item.val();
+      function reloadData(snapshot){
+        document.getElementById("myList").innerHTML = "";
+        snapshot.forEach((item) => {
+          const data = item.val();
 
-            let newData = {
-              firstname: data.firstname,
-              lastname: data.lastname,
-              birthday: data.birthday,
-              city: data.city,
-              mail: data.mail
-            }
+          let newData = {
+            firstname: data.firstname,
+            lastname: data.lastname,
+            birthday: data.birthday,
+            city: data.city,
+            mail: data.mail
+          }
 
-            let nodeUser = document.createElement("LI");
-            let nodeUserUL = document.createElement("UL");
+          let nodeUser = document.createElement("LI");
+          let nodeUserUL = document.createElement("UL");
 
-            for(let i in newData) {
-              let propertyValue = document.createTextNode(keyLang[i] + " : " + newData[i]);
-              let nodeUserLI = document.createElement("LI");
-              nodeUserLI.appendChild(propertyValue);
-              nodeUserUL.appendChild(nodeUserLI);
-            }
+          for(let i in newData) {
+            let propertyValue = document.createTextNode(keyLang[i] + " : " + newData[i]);
+            let nodeUserLI = document.createElement("LI");
+            nodeUserLI.appendChild(propertyValue);
+            nodeUserUL.appendChild(nodeUserLI);
+          }
 
-            nodeUser.appendChild(nodeUserUL);
-            document.getElementById("myList").appendChild(nodeUser);
-          });
+          nodeUser.appendChild(nodeUserUL);
+          document.getElementById("myList").appendChild(nodeUser);
         });
+      }
 
-        function writeData(userId, name, email, imageUrl) {
-          database.ref('cedric-fournier/').set({
-            firstname: fistname,
-            lastname: lastname,
-            birthday: birthday,
-            city: city,
-            mail: mail
+      // Afficher mes Objets
+      const rootRef = database.ref("users/");
+      rootRef.on("value", function(snapshot){
+        reloadData(snapshot);
+      });
+
+        // Add un objet
+        function writeData(form) {
+          console.log(form.userId.value);
+          database.ref('users/' + form.userId.value).set({
+            firstname: form.firstname.value,
+            lastname: form.lastname.value,
+            birthday: form.birthday.value,
+            city: form.city.value,
+            mail: form.mail.value
           });
         }
-
-
 
     </script>
 
   </head>
   <body>
 
-    <form class="" action="index.html" method="post">
-      <label>Nom</label><br>
-      <input type="text" name="firstname" placeholder="Votre nom"><br>
-
-      <label>Prénom</label><br>
-      <input type="text" name="lastname" placeholder="Votre prénom"><br>
-
-      <label>Anniversaire</label><br>
-      <input type="date" name="birthday" placeholder="Votre annversaire"><br>
-
-      <label>City</label><br>
-      <input type="text" name="city" placeholder="Votre ville"><br>
-
-      <label>E-mail</label><br>
-      <input type="email" name="mail" placeholder="Votre E-mail"><br>
-
+    <form class="addFirebase" action="index.html" onsubmit="writeData(this); return false;" method="post">
+      <label>User: </label><input type="text" name="userId" placeholder="User"><br>
+      <label>Nom: </label><input type="text" name="firstname" placeholder="Votre nom"><br>
+      <label>Prénom: </label><input type="text" name="lastname" placeholder="Votre prénom"><br>
+      <label>Anniversaire: </label><input type="text" name="birthday" placeholder="Votre annversaire"><br>
+      <label>Ville: </label><input type="text" name="city" placeholder="Votre ville"><br>
+      <label>E-mail: </label><input type="email" name="mail" placeholder="Votre E-mail"><br>
       <button type="submit" name="button">Envoyer</button>
     </form>
 
