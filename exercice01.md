@@ -1,6 +1,7 @@
 # Premier Exercice sur Firebase
 
 ## Table des matières
+*Pensez à rester appuyé sur CTRL pour ouvrir un lien*
 
   - [Intro](intro.md)
   - [Premier Exercice](exercice01.md)
@@ -61,7 +62,9 @@ Nous allons maintenant appeller notre DB sur notre page index.html.
 
 Commençez par afficher vos éléments soit via `console.log()` ou directement sur votre page **index.html**.
 
-Je vous laisse chercher avec la Documentation et Google comment faire.
+Je vous laisse chercher avec Google comment faire.
+
+> Aidez vous de la Documentation Firebase et de la Documentation Javascript.
 
 Quand vous avez reussis à afficher vos éléments de la DB, maintenant mettez les dans une liste HTML (`<ul><li></li></ul>`). Sans oubliez de mettre devant un titre, **par exemple, a la place de firstname avoir Prénom : Cédric**.
 
@@ -86,34 +89,6 @@ Comme resultat vous devriez avoir quelque chose comme sa :
     Anniversaire : 04/04/86
     Ville : Liège
     E-mail : winand.geraldine@hotmail.com
-
-
-<!-- Caché ou pas ?
-
-      <script>  
-        var rootRef = firebase.database().ref();
-        rootRef.once("value")
-        .then((snapshot) => {
-          snapshot.forEach((item) => {
-            let data = item.val();
-
-            let nodeUser = document.createElement("LI");
-            let nodeUserUL = document.createElement("UL");
-
-            // Object.getOwnPropertyNames renvoit la liste des key sous forme de tableau
-            Object.getOwnPropertyNames(data).forEach((property) => {
-              let propertyValue = document.createTextNode(keyLang[property] + " : " + data[property]);
-              let nodeUserLI = document.createElement("LI");
-              nodeUserLI.appendChild(propertyValue);
-              nodeUserUL.appendChild(nodeUserLI);
-            });
-
-            nodeUser.appendChild(nodeUserUL);
-            document.getElementById("myList").appendChild(nodeUser);
-          });
-        });
-      </script>
--->
 
 Voila maintenant vous savez comment créer une base de donnée avec Firebase et comment l'afficher sur votre page. Maintenant comme exercice, il ne vous reste plus que :
   - Ajouter une nouvelle personne dans votre DB via index.html.
