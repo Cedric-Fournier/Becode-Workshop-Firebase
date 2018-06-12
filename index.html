@@ -10,17 +10,18 @@
     <script>
       // Initialize Firebase
       const config = {
-        apiKey: "YOU-API-KEY",
-        authDomain: "YOU-AUTH-DOMAIN",
-        databaseURL: "YOU-DATABASE-URL",
-        projectId: "YOU-PROJECT-ID",
-        storageBucket: "YOU-STORAGE-BUCKET",
-        messagingSenderId: "YOU-MESSAGING-SENDER-ID"
+        apiKey: "AIzaSyB90CMYuzH3AgbDn_8_SCJVBVCrMnDEDao",
+        authDomain: "cedric-fournier.firebaseapp.com",
+        databaseURL: "https://cedric-fournier.firebaseio.com",
+        projectId: "cedric-fournier",
+        storageBucket: "cedric-fournier.appspot.com",
+        messagingSenderId: "105643866558"
       };
       firebase.initializeApp(config);
 
       const database = firebase.database();
 
+      // Je crée les noms en FR de mon Objet
       const keyLang = {
         birthday: "Anniversaire",
         city: "Ville",
@@ -29,37 +30,48 @@
         mail: "E-mail"
       };
 
-      // var test = {
-      //   firstname: "Prénom",
-      //   lastname: "Nom",
-      //   birthday: "Anniversaire",
-      //   city: "Ville",
-      //   mail: "E-mail"
-      // }
-
-      var rootRef = firebase.database().ref();
+      // Afficher mes Objets
+      const rootRef = database.ref();
       rootRef.once("value")
         .then((snapshot) => {
+          // for(item in snapshot) => {
           snapshot.forEach((item) => {
-            let data = item.val();
-            console.log(data);
+            const data = item.val();
+
+            let newData = {
+              firstname: data.firstname,
+              lastname: data.lastname,
+              birthday: data.birthday,
+              city: data.city,
+              mail: data.mail
+            }
 
             let nodeUser = document.createElement("LI");
             let nodeUserUL = document.createElement("UL");
 
-            // Object.getOwnPropertyNames renvoit la liste des key sous forme de tableau
-            Object.getOwnPropertyNames(data).forEach((property) => {
-              console.log(property);
-              let propertyValue = document.createTextNode(keyLang[property] + " : " + data[property]);
+            for(let i in newData) {
+              let propertyValue = document.createTextNode(keyLang[i] + " : " + newData[i]);
               let nodeUserLI = document.createElement("LI");
               nodeUserLI.appendChild(propertyValue);
               nodeUserUL.appendChild(nodeUserLI);
-            });
+            }
 
             nodeUser.appendChild(nodeUserUL);
             document.getElementById("myList").appendChild(nodeUser);
           });
         });
+
+        function writeData(userId, name, email, imageUrl) {
+          database.ref('cedric-fournier/').set({
+            firstname: fistname,
+            lastname: lastname,
+            birthday: birthday,
+            city: city,
+            mail: mail
+          });
+        }
+
+
 
     </script>
 
