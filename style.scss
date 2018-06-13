@@ -1,0 +1,89 @@
+/// VARIABLES ///
+
+$font: Helvetica, Arial, no-serif;
+$colorPrincipal: #333;
+$colorSecondary: #fff;
+$colorButton: #aaa;
+$colorButtonHover: #767ee2;
+$fontSizeUser: 30px;
+$fontSizeButton: 20px;
+$margin: 20px;
+$marginUL: 30px;
+$borderBottomUL: 1px solid #aaa;;
+$marginLI: 10px;
+$nostylelist: none;
+$textAlignCenter: center;
+
+
+/// STYLE ///
+
+body {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-areas: "AddUpDel display";
+  font-family: $font;
+}
+
+.AddUpDel {
+  grid-area: AddUpDel;
+  margin: $margin;
+  background: $colorPrincipal;
+  color: $colorSecondary;
+  text-align: $textAlignCenter;
+}
+
+.display {
+  grid-area: display;
+  margin: $margin;
+  background: $colorPrincipal;
+  color: $colorSecondary;
+  h2 {
+    text-align: $textAlignCenter;
+  }
+}
+
+.addFirebase {
+  margin: 20px 80px;
+  text-align: left;
+  .user{
+    font-size: $fontSizeUser;
+    background: blue;
+    label{
+      color: $colorSecondary;
+    }
+    input{
+      font-size: $fontSizeUser;
+      margin: 5px;
+      padding: 2px;
+    }
+  }
+  input{
+    margin: 5px;
+    padding: 2px;
+  }
+  label{
+    color: $colorButton;
+  }
+  button{
+    background: $colorButton;
+    margin: 10px 10px;
+    font-size: $fontSizeButton;
+  }
+  button:hover{
+    background: $colorButtonHover;
+    color: $colorSecondary;
+  }
+}
+
+#myList {
+  ul {
+    list-style: $nostylelist;
+    margin-bottom: $marginUL;
+    border-bottom: $borderBottomUL;
+  }
+  li{
+    list-style: $nostylelist;
+    margin: $marginLI;
+  }
+}
