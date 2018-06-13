@@ -1,7 +1,6 @@
 # Firebase
 
 ## Table des matières
-*Pensez à rester appuyé sur CTRL pour ouvrir un lien*
 
   - [Intro](intro.md)
   - [Premier Exercice](exercice01.md)
@@ -10,7 +9,7 @@
 
 ## Par où commencer ?
 
-Avant de commencer voici les liens important !
+Avant de commencer voici les liens importants !
 
 - [Google Firebase](https://firebase.google.com/)
 - [Console Firebase](https://console.firebase.google.com/)
@@ -26,7 +25,7 @@ La documentation vous servira quand vous serez bloqué ou que vous comprendrez p
 
 ## Commençons par créer notre base de données !
 
-Allez sur le lien de la console Firebase, vous aurez peut etre a vous connectez avec google, ensuite vous arriverez sur une page.
+Allez sur le lien de la console Firebase, vous aurez peut-être à vous connecter avec Google, ensuite vous arriverez sur une page.
 
 Cliquez sur le " + Ajouter un projet " , un pop-up va s'ouvrir avec plusieurs données à remplir, nommez le par exemple prenom-nom, choissisez votre pays. Je vous laisse choisir si vous voulez laisser le premier checkbox coché ou non, ensuite coché le second pour accepter leurs conditions et valider la création du projet.
 
@@ -35,9 +34,9 @@ Vous voici sur votre projet.
 
 ## Comprenons ce que nous voyons
 
-Nous voici sur l'accueil en quelque sorte, plus précisément sur Project Overview. Ici vous avez accès à trois boutons, les deux premiers laissez les de coté, c'est pour pouvoir rajouter Firebase a iOS et Android mais cela demande de remplir certain condition bien précise. Nous allons plus particulièrement nous intéresser au dernier bouton qui est pour App Web.
+Nous voici sur l'accueil en quelque sorte, plus précisément sur Project Overview. Ici vous avez accès à trois boutons, les deux premiers laissez les de coté, c'est pour pouvoir rajouter Firebase a iOS et Android mais cela demande de remplir certaines conditions bien précises. Nous allons plus particulièrement nous intéresser au dernier bouton qui est pour App Web.
 
-En cliquant dessus cela ouvre un pop-up, vous devez copier ceci sur votre page index.html *(par exemple)* de préférence dans le head. Cela permet en faite de les lier.
+En cliquant dessus cela ouvre un pop-up, vous devez copier ceci sur votre page index.html *(par exemple)* de préférence dans le head. Cela permet en fait de les lier.
 
 Exemple :
 
@@ -55,7 +54,7 @@ Exemple :
       firebase.initializeApp(config);
     </script>
 
-Vous devez mettre ca entre vos balises `<head> </head>`, pensez bien à utiliser le votre, celui ci n'est qu'un exemple.
+Vous devez mettre ça entre vos balises `<head> </head>`, pensez bien à utiliser le votre, celui ci n'est qu'un exemple.
 
 Voila nous venons de jumeler notre Firebase avec notre html(ou php, ou que sais je encore).
 
