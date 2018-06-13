@@ -1,7 +1,56 @@
-#myList ul, #myList li {
-  list-style: none;
-}
+body {
+  display: grid;
+  grid-template-rows: auto;
+  grid-template-columns: 1fr, 1fr;
+  grid-template-areas: "AddUpDel display";
+  font-family: Helvetica, Arial, no-serif; }
+
+.AddUpDel {
+  grid-area: AddUpDel;
+  margin: 20px;
+  background: #333;
+  color: #fff;
+  text-align: center; }
+
+.display {
+  grid-area: display;
+  margin: 20px;
+  background: #333;
+  color: #fff; }
+  .display h2 {
+    text-align: center; }
+
+.addFirebase {
+  margin: 20px 80px;
+  text-align: left; }
+  .addFirebase .user {
+    font-size: 30px;
+    background: blue; }
+    .addFirebase .user label {
+      color: #fff; }
+    .addFirebase .user input {
+      font-size: 30px;
+      margin: 5px;
+      padding: 2px; }
+  .addFirebase input {
+    margin: 5px;
+    padding: 2px; }
+  .addFirebase label {
+    color: #aaa; }
+  .addFirebase button {
+    background: #aaa;
+    margin: 10px 10px;
+    font-size: 20px; }
+  .addFirebase button:hover {
+    background: #767ee2;
+    color: #fff; }
 
 #myList ul {
-  margin: 20px;
-}
+  list-style: none;
+  margin-bottom: 30px;
+  border-bottom: 1px solid #aaa; }
+#myList li {
+  list-style: none;
+  margin: 10px; }
+
+/*# sourceMappingURL=style.css.map */
