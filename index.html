@@ -66,7 +66,6 @@
 
         // Add un objet
         function writeData(form) {
-          console.log(form.userId.value);
           database.ref('users/' + form.userId.value).set({
             firstname: form.firstname.value,
             lastname: form.lastname.value,
@@ -76,22 +75,60 @@
           });
         }
 
+        // Delete un objet
+        function deleteData(form) {
+          database.ref('users/' + form.userId.value).remove()
+            .then(function() {
+              console.log("Remove succeeded.")
+            })
+            .catch(function(error) {
+              console.log("Remove failed: " + error.message)
+            });
+        }
+
     </script>
 
   </head>
   <body>
 
-    <form class="addFirebase" action="index.html" onsubmit="writeData(this); return false;" method="post">
-      <label>User: </label><input type="text" name="userId" placeholder="User"><br>
-      <label>Nom: </label><input type="text" name="firstname" placeholder="Votre nom"><br>
-      <label>Prénom: </label><input type="text" name="lastname" placeholder="Votre prénom"><br>
-      <label>Anniversaire: </label><input type="text" name="birthday" placeholder="Votre annversaire"><br>
-      <label>Ville: </label><input type="text" name="city" placeholder="Votre ville"><br>
-      <label>E-mail: </label><input type="email" name="mail" placeholder="Votre E-mail"><br>
-      <button type="submit" name="button">Envoyer</button>
-    </form>
+    <div class="AddUpDel">
+      <h1>Firebase est ton ami !</h1>
+      <h2>Add Object (Ajouter une personne)</h2>
+      <form class="addFirebase" action="index.html" onsubmit="writeData(this); return false;" method="post">
+        <div class="user"><label>User(id): </label><input type="text" name="userId" placeholder="User"></div>
+        <label>Nom: </label><input type="text" name="lastname" placeholder="Nom"><br>
+        <label>Prénom: </label><input type="text" name="firstname" placeholder="Prénom"><br>
+        <label>Anniversaire: </label><input type="text" name="birthday" placeholder="Annversaire"><br>
+        <label>Ville: </label><input type="text" name="city" placeholder="Ville"><br>
+        <label>E-mail: </label><input type="email" name="mail" placeholder="E-mail"><br>
+        <button type="submit" name="button">Envoyer</button>
+        <button type="button" name="button">Clear</button>
+      </form>
 
-    <ul id="myList">
-    </ul>
+      <h2>Upgrade Object (Modifier une personne)</h2>
+      <form class="addFirebase" action="index.html" onsubmit="writeData(this); return false;" method="post">
+        <div class="user"><label>User(id): </label><input type="text" name="userId" placeholder="User"></div>
+        <label>Nom: </label><input type="text" name="lastname" placeholder="Nom"><br>
+        <label>Prénom: </label><input type="text" name="firstname" placeholder="Prénom"><br>
+        <label>Anniversaire: </label><input type="text" name="birthday" placeholder="Annversaire"><br>
+        <label>Ville: </label><input type="text" name="city" placeholder="Ville"><br>
+        <label>E-mail: </label><input type="email" name="mail" placeholder="E-mail"><br>
+        <button type="submit" name="button">Envoyer</button>
+        <button type="button" name="button">Clear</button>
+      </form>
+
+      <h2>Delete Object (Supprimer une personne)</h2>
+      <form class="addFirebase" action="index.html" onsubmit="deleteData(this); return false;" method="post">
+        <div class="user"><label>User(id): </label><input type="text" name="userId" placeholder="User"></div>
+        <button type="submit" name="button">Envoyer</button>
+      </form>
+    </div>
+
+    <div class="display">
+      <h2>Affichage DB</h2>
+      <ul id="myList">
+      </ul>
+    </div>
+
   </body>
 </html>
