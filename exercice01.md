@@ -1,11 +1,10 @@
 # Premier Exercice sur Firebase
 
 ## Table des matières
-*Pensez à rester appuyé sur CTRL pour ouvrir un lien*
 
   - [Intro](intro.md)
   - [Premier Exercice](exercice01.md)
-  - [Deuxième Exercice](exercice02.md)  
+  - [Deuxième Exercice](exercice02.md)
   - [Troisème Exercice](exercice03.md)
 
 ## Créer vos objets sur votre DB manuellement
@@ -53,7 +52,7 @@ Vous avez également supprimez tout ce qui se trouvait a l'interieur.
 
 Maintenant recommencez en créant un dossier principal du nom de *"users"* puis deux sous dossier dans votre projet. Appellez le premier **votrenom** et le second **lenomduvoisin** et remplissez les, le premier avec vos données et le second avec un de vos voisins à votre table.
 
-Une fois que s'est fait nous allons maintenant appeller tout sa sur notre page index.html.
+Une fois que c'est fait nous allons maintenant appeller tout sa sur notre page index.html.
 
 - users
   - cedric
@@ -69,6 +68,8 @@ Une fois que s'est fait nous allons maintenant appeller tout sa sur notre page i
     - lastname: "Winand"
     - mail: "winand.geraldine@hotmail.com"
 
+> Une chose importante a savoir : cedric est considéré comme un "ID", birthday est une "key" et "08/06/88" est une "value"
+
 
 ## Afficher les objets de votre DB
 
@@ -78,9 +79,9 @@ Commençez par afficher vos éléments soit via `console.log()` ou directement s
 
 Je vous laisse chercher avec Google comment faire.
 
-> Aidez vous de la Documentation Firebase et de la Documentation Javascript.
+> Aidez vous de la Documentation Firebase et de la Documentation Javascript. Pensez aux "key" et "value".
 
-Quand vous avez reussis à afficher vos éléments de la DB, maintenant mettez les dans une liste HTML (`<ul><li></li></ul>`). Sans oubliez de mettre devant un titre, **par exemple, à la place de "firstname" avoir Prénom : Cédric**.
+Quand vous avez reussi à afficher vos éléments de la DB, maintenant mettez les dans une liste HTML (`<ul><li></li></ul>`). Sans oublier de mettre devant un titre, **par exemple, à la place de "firstname" avoir Prénom : Cédric**.
 
 Une fois fait, mettez maintenant la liste dans l'ordre suivant :
 
@@ -90,7 +91,7 @@ Une fois fait, mettez maintenant la liste dans l'ordre suivant :
     Ville : city
     E-mail : mail
 
-Comme resultat vous devriez avoir quelque chose comme sa :
+Comme resultat vous devriez avoir quelque chose comme ça :
 
     Prénom : Cedric
     Nom : Fournier
@@ -109,3 +110,10 @@ Voila maintenant vous savez comment créer une base de donnée avec Firebase et 
   - Update une personne déjà présente dans la DB via index.html.
   - Supprimez une personne déjà présente dans la DB via index.html.
   - Bonus, héhéhé.
+
+## Table des matières
+
+  - [Intro](intro.md)
+  - [Premier Exercice](exercice01.md)
+  - [Deuxième Exercice](exercice02.md)  
+  - [Troisème Exercice](exercice03.md)
