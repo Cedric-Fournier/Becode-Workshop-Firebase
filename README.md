@@ -5,8 +5,7 @@
   - [Intro](intro.md)
   - [Premier Exercice](exercice01.md)
   - [Deuxième Exercice](exercice02.md)
-  - [Troisème Exercice](exercice03.md)
-  
+
 ## Who?
   Cédric Fournier
 
