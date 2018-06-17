@@ -3,8 +3,8 @@
 ## Table des matières
 
   - [Intro](intro.md)
-  - [Premier Exercice](exercice01.md)
-  - [Deuxième Exercice](exercice02.md)
+    - [Premier Exercice](exercice01.md)
+    - [Deuxième Exercice](exercice02.md)
 
 ## Who?
   Cédric Fournier
