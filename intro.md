@@ -3,9 +3,8 @@
 ## Table des matières
 
   - [Intro](intro.md)
-  - [Premier Exercice](exercice01.md)
-  - [Deuxième Exercice](exercice02.md)
-  - [Troisème Exercice](exercice03.md)
+    - [Premier Exercice](exercice01.md)
+    - [Deuxième Exercice](exercice02.md)
 
 ## Par où commencer ?
 
@@ -90,3 +89,9 @@ Du coup vous devriez avoir ceci :
     </script>
 
 Je vous laisse chercher si vous voulez lier un autre module, ce n'est pas compliqué.
+
+## Table des matières
+
+  - [Intro](intro.md)
+    - [Premier Exercice](exercice01.md)
+    - [Deuxième Exercice](exercice02.md)

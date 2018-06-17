@@ -1,4 +1,4 @@
-# Troisième Exercice sur Firebase
+# Firebase Exercices Complémentaires
 
 ## Table des matières
 
@@ -19,4 +19,9 @@
     - [Quartozième Exercice](exercice14.md)
     - [Quinzième Exercice](exercice15.md)
 
-## A
+
+## Exercices Complémentaires
+
+Je vous es préparé quelque exercices en plus, revenez de temps en temps, j'en mettrai encore.
+
+Amusez-vous bien !!! Héhéhé.
