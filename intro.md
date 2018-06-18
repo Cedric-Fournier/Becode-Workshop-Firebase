@@ -2,9 +2,11 @@
 
 ## Table des matières
 
-  - [Intro](intro.md)
+  - [Intro](intro.md) - travailler avec ce fichier (exercice-base.html)
     - [Premier Exercice](exercice01.md)
     - [Deuxième Exercice](exercice02.md)
+  - [Exercices Complémentaires](exercices-complementaires.md) - travailler avec ce fichier (exercices-complementaires.html)
+    - [Troisième Exercice](exercice03.md)
 
 ## Par où commencer ?
 
