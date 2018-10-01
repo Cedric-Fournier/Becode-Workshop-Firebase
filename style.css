@@ -1,56 +1,68 @@
-body {
+.container_realtime_database {
   display: grid;
   grid-template-rows: auto;
+  font-family: Helvetica, Arial, no-serif;
   grid-template-columns: 1fr, 1fr;
-  grid-template-areas: "AddUpDel display";
-  font-family: Helvetica, Arial, no-serif; }
-
-.AddUpDel {
-  grid-area: AddUpDel;
-  margin: 20px;
-  background: #333;
-  color: #fff;
-  text-align: center; }
-
-.display {
-  grid-area: display;
-  margin: 20px;
-  background: #333;
-  color: #fff; }
-  .display h2 {
+  grid-template-areas: "AddUpDel display"; }
+  .container_realtime_database .AddUpDel {
+    grid-area: AddUpDel;
+    margin: 20px;
+    background: #333;
+    color: #fff;
     text-align: center; }
-
-.addFirebase {
-  margin: 20px 80px;
-  text-align: left; }
-  .addFirebase .user {
-    font-size: 30px;
-    background: blue; }
-    .addFirebase .user label {
-      color: #fff; }
-    .addFirebase .user input {
+  .container_realtime_database .display {
+    grid-area: display;
+    margin: 20px;
+    background: #333;
+    color: #fff; }
+    .container_realtime_database .display h2 {
+      text-align: center; }
+  .container_realtime_database .addFirebase {
+    margin: 20px 80px;
+    text-align: left; }
+    .container_realtime_database .addFirebase .user {
       font-size: 30px;
+      background: blue; }
+      .container_realtime_database .addFirebase .user label {
+        color: #fff; }
+      .container_realtime_database .addFirebase .user input {
+        font-size: 30px;
+        margin: 5px;
+        padding: 2px; }
+    .container_realtime_database .addFirebase input {
       margin: 5px;
       padding: 2px; }
-  .addFirebase input {
-    margin: 5px;
-    padding: 2px; }
-  .addFirebase label {
-    color: #aaa; }
-  .addFirebase button {
-    background: #aaa;
-    margin: 10px 10px;
-    font-size: 20px; }
-  .addFirebase button:hover {
-    background: #767ee2;
-    color: #fff; }
+    .container_realtime_database .addFirebase label {
+      color: #aaa; }
+    .container_realtime_database .addFirebase button {
+      background: #aaa;
+      margin: 10px 10px;
+      font-size: 20px; }
+    .container_realtime_database .addFirebase button:hover {
+      background: #767ee2;
+      color: #fff; }
+  .container_realtime_database #myList ul {
+    list-style: none;
+    margin-bottom: 30px;
+    border-bottom: 1px solid #aaa; }
+  .container_realtime_database #myList li {
+    list-style: none;
+    margin: 10px; }
 
-#myList ul {
-  list-style: none;
-  margin-bottom: 30px;
-  border-bottom: 1px solid #aaa; }
-#myList li {
-  list-style: none;
-  margin: 10px; }
+.container_login {
+  display: grid;
+  grid-template-rows: auto;
+  font-family: Helvetica, Arial, no-serif;
+  grid-template-columns: 1fr;
+  grid-template-areas: "Login";
+  height: 250px; }
+  .container_login .Login {
+    grid-area: Login;
+    margin: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center; }
+  .container_login form {
+    text-align: center; }
 
 /*# sourceMappingURL=style.css.map */

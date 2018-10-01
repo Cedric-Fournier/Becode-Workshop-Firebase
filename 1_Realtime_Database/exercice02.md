@@ -1,10 +1,4 @@
-# Deuxième Exercice sur Firebase
-
-## Table des matières
-
-  - [Intro](intro.md)
-    - [Premier Exercice](exercice01.md)
-    - [Deuxième Exercice](exercice02.md)
+# Deuxième Exercice sur Firebase (RealTime Database)
 
 ## Ajouter une troisième personne dans votre DB
 
@@ -135,6 +129,9 @@ Vous devriez n'avoir plus que trois objets(personnes). Pour ma part voici ce que
 
 ## Table des matières
 
-  - [Intro](intro.md)
-    - [Premier Exercice](exercice01.md)
-    - [Deuxième Exercice](exercice02.md)
+  - [Intro](intro.md) 
+  - **Realtime Database**
+    - [Créer et afficher notre DB](./Realtime_Database/exercice01.md)
+    - [Modifier et supprimer de la data de notre DB](./Realtime_Database/exercice02.md)
+  - **Authentification**
+    - [Premier Exercice](./Authentification/exercice01.md)

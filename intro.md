@@ -1,12 +1,4 @@
-# Firebase
-
-## Table des matières
-
-  - [Intro](intro.md) - travailler avec ce fichier (exercice-base.html)
-    - [Premier Exercice](exercice01.md)
-    - [Deuxième Exercice](exercice02.md)
-  - [Exercices Complémentaires](exercices-complementaires.md) - travailler avec ce fichier (exercices-complementaires.html)
-    - [Troisième Exercice](exercice03.md)
+# Firebase   
 
 ## Par où commencer ?
 
@@ -28,7 +20,7 @@ La documentation vous servira quand vous serez bloqué ou que vous comprendrez p
 
 Allez sur le lien de la console Firebase, vous aurez peut-être à vous connecter avec Google, ensuite vous arriverez sur une page.
 
-Cliquez sur le " + Ajouter un projet " , un pop-up va s'ouvrir avec plusieurs données à remplir, nommez le par exemple prenom-nom, choissisez votre pays. Je vous laisse choisir si vous voulez laisser le premier checkbox coché ou non, ensuite coché le second pour accepter leurs conditions et valider la création du projet.
+Cliquez sur le " + Ajouter un projet " , un pop-up va s'ouvrir avec plusieurs données à remplir, nommez le par exemple prenom-nom-workshop, choissisez votre pays (Zone des données analytiques) et laisser Zone Cloud Firestore sur us-central, on utilisera Firestore un peu plus loin. Ensuite cocher les deux checkbox pour accepter leurs conditions et valider la création du projet.
 
 Vous voici sur votre projet.
 
@@ -90,10 +82,12 @@ Du coup vous devriez avoir ceci :
       const database = firebase.database();
     </script>
 
-Je vous laisse chercher si vous voulez lier un autre module, ce n'est pas compliqué.
+## Petit plus !
+
+J'ai utiliser du SCSS, si vous ne vous rappellez pas de comment celà fonctionne, voici un lien : [SASS](https://sass-lang.com/)
 
 ## Table des matières
 
-  - [Intro](intro.md)
-    - [Premier Exercice](exercice01.md)
-    - [Deuxième Exercice](exercice02.md)
+  - [Intro](intro.md) 
+  - **Realtime Database**
+    - [Créer et afficher notre DB](./1_Realtime_Database/exercice01.md) 
