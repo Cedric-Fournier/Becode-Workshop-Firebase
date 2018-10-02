@@ -38,14 +38,14 @@ Vous devriez avoir ceci a la fin :
   - mail: "cedricfournier.pro@gmail.com"
 
 
-Supprimez *"objets"* en cliquant sur le **x** a coté.
+Supprimez *"objet"* en cliquant sur le **x** a coté.
 Vous avez également supprimez tout ce qui se trouvait a l'interieur.
 
 > Essayez toujours de mettre les noms en minuscule, les valeurs comme vous le souhaitez.
 
 Maintenant recommencez en créant un dossier principal du nom de *"users"* puis deux sous dossier dans votre projet. Appellez le premier **votrenom** et le second **lenomduvoisin** et remplissez les, le premier avec vos données et le second avec un de vos voisins à votre table.
 
-Une fois que c'est fait nous allons maintenant appeller tout sa sur notre page index.html.
+Une fois que c'est fait vous devriez avoir quelque chose dans ce style là.
 
 - users
   - cedric
@@ -61,12 +61,12 @@ Une fois que c'est fait nous allons maintenant appeller tout sa sur notre page i
     - lastname: "Winand"
     - mail: "winand.geraldine@hotmail.com"
 
-> Une chose importante a savoir : cedric est considéré comme un "ID", birthday est une "key" et "08/06/88" est une "value"
+> Une chose importante a savoir : **cedric** est considéré comme un **"ID"**, **birthday** est une **"key"** et **"08/06/88"** est une **"value"**
 
 
 ## Afficher les objets de votre DB
 
-Nous allons maintenant appeller notre DB sur notre page index.html.
+Nous allons maintenant appeller notre DB sur notre page **index.html**. Mettez le code JavaScript dans **script.js**
 
 Commençez par afficher vos éléments soit via `console.log()` ou directement sur votre page **index.html**.
 
@@ -99,14 +99,14 @@ Comme resultat vous devriez avoir quelque chose comme ça :
     E-mail : winand.geraldine@hotmail.com
 
 Voila maintenant vous savez comment créer une base de donnée avec Firebase et comment l'afficher sur votre page. Maintenant comme exercice, il ne vous reste plus que :
-  - Ajouter une nouvelle personne dans votre DB via index.html.
-  - Update une personne déjà présente dans la DB via index.html.
-  - Supprimez une personne déjà présente dans la DB via index.html.
-  - Bonus, héhéhé.
+  - Ajouter une nouvelle personne dans votre DB.
+  - Update une personne déjà présente dans la DB.
+  - Supprimez une personne déjà présente dans la DB.
+  - Ce n'est que le début héhéhé <span style="color:red">:smiling_imp:</span>
 
 ## Table des matières
 
   - [Intro](../intro.md) 
   - **Realtime Database**
-    - [Créer et afficher notre DB](./1_Realtime_Database/exercice01.md)_
+    - [Créer et afficher notre DB](./1_Realtime_Database/exercice01.md)
     - [Modifier et supprimer de la data de notre DB](./1_Realtime_Database/exercice02.md)

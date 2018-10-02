@@ -24,7 +24,7 @@ Il existe différent mode de connexion que peut utiliser Firebase. Il suffit pou
 Pour commencer, allons dans Authentification (menu Firebase) puis dans mode de connexion. Cliquez sur "Adresse e-mail/Mot de passe" et activer le premier.
 Le deuxième ne nous intèresse pas pour cette exercice, mais n'hésitez pas, par après a aller voir ce que c'est. Puis cliquez sur Enregistrer.
 
-![alt text](../assets/authentificationActived.png "Ce que vous devriez avoir")
+![Example after actived](../assets/authentificationActived.png "Ce que vous devriez avoir")
 
 N'activez pas maintenant Google et Facebook, vous allez devoir tout remplir et la première fois ce n'est pas facile. On le fera ensemble.
 

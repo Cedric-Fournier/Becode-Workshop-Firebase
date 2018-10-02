@@ -4,10 +4,9 @@
 
 Avant de commencer voici les liens importants !
 
-- [Google Firebase](https://firebase.google.com/)
-- [Console Firebase](https://console.firebase.google.com/)
-- [Documentation Firebase](https://firebase.google.com/docs/)
-
+- <a href="https://firebase.google.com/" target="_blank">Google Firebase</a>
+- <a href="https://console.firebase.google.com/" target="_blank">Console Firebase</a>
+- <a href="https://firebase.google.com/docs/" target="_blank">Documentation Firebase</a>
 
 La console permet de gérer votre (ou vos) base(s) de données.
 
@@ -33,32 +32,37 @@ En cliquant dessus cela ouvre un pop-up, vous devez copier ceci sur votre page i
 
 Exemple :
 
-    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-    <script>
-      // Initialize Firebase
-      const config = {
-      apiKey: "YOU-API-KEY",
-      authDomain: "YOU-AUTH-DOMAIN",
-      databaseURL: "YOU-DATABASE-URL",
-      projectId: "YOU-PROJECT-ID",
-      storageBucket: "YOU-STORAGE-BUCKET",
-      messagingSenderId: "YOU-MESSAGING-SENDER-ID"
-      };
-      firebase.initializeApp(config);
-    </script>
+```html
+<script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
+<script>
+// Initialize Firebase
+const config = {
+  apiKey: "YOU-API-KEY",
+  authDomain: "YOU-AUTH-DOMAIN",
+  databaseURL: "YOU-DATABASE-URL",
+  projectId: "YOU-PROJECT-ID",
+  storageBucket: "YOU-STORAGE-BUCKET",
+  messagingSenderId: "YOU-MESSAGING-SENDER-ID"
+};
+firebase.initializeApp(config);
+</script>
+```
 
 Vous devez mettre ça entre vos balises `<head> </head>`, pensez bien à utiliser le votre, celui ci n'est qu'un exemple.
 
 Voila nous venons de jumeler notre Firebase avec notre html(ou php, ou que sais je encore).
 
+#### Petit plus 
+Pour nos exercices, nous allons mettre cela dans un fichier **script.js**. Je vous laisse faire. Pensez du coup a installer firebase avec **npm install --save firebase** (**sudo** si besoin pour Linux et Mac)
+
 
 ## Continuons à configurer Firebase
 
-Allez maintenant sur ce lien que vous utiliserez souvant : [Documentation Firebase](https://firebase.google.com/docs/)
+Allez maintenant sur ce lien que vous utiliserez souvant : <a href="https://firebase.google.com/docs/" target="_blank">Documentation Firebase</a>
 
 Comme vous pouvez le voir, Firebase peut etre utilisé sur plusieurs plateformes.
 
-Il existe plusieurs "modules" dont Cloud Messaging, Authentication, Realtime Database, Cloud Firestore (in Beta), Storage, Hosting, Cloud Functions (in Beta) et ML Kit (in Beta). Si vous voulez en savoir plus sur un module bien précis, je vous invite à lire la Documentation.
+Il existe plusieurs "modules" dont Cloud Messaging, Authentication, Realtime Database, Cloud Firestore (in Beta), Storage, Hosting, Cloud Functions (in Beta) et ML Kit (in Beta). Si vous voulez en savoir plus sur un module bien précis, je vous invite à lire la Documentation même si on va déjà en voir plusieurs durant ce workshop.
 
 Nous nous attarderons sur Realtime Database. Pour cela cliquez sur Realtime Database dans la Documentation.
 
@@ -66,8 +70,9 @@ Nous allons maintenant lier le module à notre projet. Je vous laisse lire si vo
 
 Du coup vous devriez avoir ceci :
 
-    <script src="https://www.gstatic.com/firebasejs/5.0.4/firebase.js"></script>
-    <script>
+> script.js
+
+```javascript
       // Initialize Firebase
       const config = {
       apiKey: "YOU-API-KEY",
@@ -80,11 +85,11 @@ Du coup vous devriez avoir ceci :
       firebase.initializeApp(config);
 
       const database = firebase.database();
-    </script>
+```
 
 ## Petit plus !
 
-J'ai utiliser du SCSS, si vous ne vous rappellez pas de comment celà fonctionne, voici un lien : [SASS](https://sass-lang.com/)
+J'ai utiliser du SCSS, si vous ne vous rappellez pas de comment celà fonctionne, voici un lien : <a href="https://sass-lang.com/" target="_blank">SASS</a>
 
 ## Table des matières
 

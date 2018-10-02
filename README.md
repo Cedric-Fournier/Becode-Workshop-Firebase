@@ -24,12 +24,11 @@ Alors [cliquez ici](intro.md).
 - **Realtime Database**
   - Créer et afficher notre DB
   - Modifier et supprimer de la data de notre DB
+- **Storage**
+  - Premier Exercice
 - **Authentification**
   - Authentification avec Email & Password
   - Authentification avec Google, Facebook et GitHub
-- **Storage**
-  - Premier Exercice
-  - Deuxième Exercice
 - **Cloud Firestore**
   - Créer et afficher notre DB
   - Modifier et supprimer de la data de notre DB

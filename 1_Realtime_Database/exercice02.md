@@ -125,6 +125,17 @@ Vous devriez n'avoir plus que trois objets(personnes). Pour ma part voici ce que
     Ville : Namur
     E-mail : antoni.dallenogare@gmail.com
 
+## Conclusion
+
+Voilà pour ce qui est de RealTime Database, on pourrait encore aller plus loin mais ce n'est pas un workshop juste sur ce composant mais sur la globalité de Firebase, essayons d'aller le plus loin possible ensemble <span style="color:green">:muscle:</span>.
+
+Pour ceux qui le veulent, voici deux exercices. 
+- Ajouter un ID automatiquement à une data qu'on a rentré. *(Facile)*
+- Avec un formulaire créer une table sans toucher a Firebase (juste créer la DB). *(Difficile)*
+
+Ne le faite pas pendant le workshop, sauf si vous avez déjà fini le reste.
+
+Passons maintenant au composant Storage.
 
 
 ## Table des matières
