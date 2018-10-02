@@ -129,9 +129,9 @@ Vous devriez n'avoir plus que trois objets(personnes). Pour ma part voici ce que
 
 ## Table des matières
 
-  - [Intro](intro.md) 
+  - [Intro](../intro.md) 
   - **Realtime Database**
-    - [Créer et afficher notre DB](./Realtime_Database/exercice01.md)
-    - [Modifier et supprimer de la data de notre DB](./Realtime_Database/exercice02.md)
-  - **Authentification**
-    - [Premier Exercice](./Authentification/exercice01.md)
+    - [Créer et afficher notre DB](./1_Realtime_Database/exercice01.md)_
+    - [Modifier et supprimer de la data de notre DB](./1_Realtime_Database/exercice02.md)
+  - **Storage**
+    - [Utiliser le composant Storage](../2_Storage/exercice01.md)

@@ -1,30 +1,35 @@
-# Firebase
+# Workshop Firebase
 
-## Table des matières
+- **Quoi ?** : Workshop sur Firebase pendant ma formation chez BeCode.
+- **Contact** : Cedric Fournier - [Mail](cedricfournier.pro@gmail.com) - [Linkedin](https://www.linkedin.com/in/cedric-fournier/) - [GitHub](https://github.com/Cedric-Fournier)
+- **Où ?** : [BeCode](https://www.becode.org/) - Johnson 2
+- **Quand ?** : 
+    - *Préparation* : juin 2018
+    - *Première Présentation* : Mercredi 10 octobre 2018
 
-  - [Intro](intro.md) 
-  - 1) **Realtime Database**
-    - [Créer et afficher notre DB](./1_Realtime_Database/exercice01.md)
-    - [Modifier et supprimer de la data de notre DB](./1_Realtime_Database/exercice02.md)
-  - 2) **Authentification**
-    - [Premier Exercice](./2_Authentification/exercice01.md)
-    - [Deuxième Exercice](./2_Authentification/exercice02.md)
-  - 3) **Storage**
-    - [Premier Exercice](./3_Storage/exercice01.md)
-    - [Deuxième Exercice](./3_Storage/exercice02.md)
-  - 4) **Cloud Firestore**
-    - [Créer et afficher notre DB](./4_Cloud_Firestore/exercice01.md)
-    - [Modifier et supprimer de la data de notre DB](./4_Cloud_Firestore/exercice02.md)
+## Ce qu'on va aborder
+Nous allons aborder ce qu'est [Firebase](https://firebase.google.com/), ainsi que différent composant qui le compose.
+Par exemple : [Realtime Database](https://firebase.google.com/docs/database/), [Authentification](https://firebase.google.com/docs/auth/), [Storage](https://firebase.google.com/docs/storage/), [Cloud Firestore](https://firebase.google.com/docs/firestore/).
 
+## Objectif :
+Pendant ce workshop vous allez apprendre à prendre en main Firebase, "normalement" a la fin vous devriez pouvoir utiliser les différents composants pour divers projets.
 
-## Who?
-  Cédric Fournier
+## Commencement !
+Vous êtes pret à en voir de toutes les couleurs ?
+Alors [cliquez ici](intro.md).
 
-## What?
-  Workshop basé sur Firebase. Création de base de donnée, add, update, delete, afficher sur page web.
+## Schéma du Workshop
 
-## When?
-  J'ai commencé le 30 mai à travailler dessus, je dois avoir fini pour fin Juin.
-
-## Where?
-  Pendant ma formation chez Becode.
+- **Intro**
+- **Realtime Database**
+  - Créer et afficher notre DB
+  - Modifier et supprimer de la data de notre DB
+- **Authentification**
+  - Authentification avec Email & Password
+  - Authentification avec Google, Facebook et GitHub
+- **Storage**
+  - Premier Exercice
+  - Deuxième Exercice
+- **Cloud Firestore**
+  - Créer et afficher notre DB
+  - Modifier et supprimer de la data de notre DB
