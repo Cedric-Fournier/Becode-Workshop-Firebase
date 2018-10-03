@@ -18,6 +18,8 @@ Pendant ce workshop vous allez apprendre à prendre en main Firebase, "normaleme
 Vous êtes pret à en voir de toutes les couleurs ?
 Alors [cliquez ici](intro.md).
 
+![Wouhou](https://media.giphy.com/media/wcgcRnkePIUPS/giphy.gif "WOOOUUUUHHHHOOOUUU")
+
 ## Schéma du Workshop
 
 - **Intro**
