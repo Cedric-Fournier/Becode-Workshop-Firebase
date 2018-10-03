@@ -108,5 +108,5 @@ Voila maintenant vous savez comment créer une base de donnée avec Firebase et 
 
   - [Intro](../intro.md) 
   - **Realtime Database**
-    - [Créer et afficher notre DB](./1_Realtime_Database/exercice01.md)
-    - [Modifier et supprimer de la data de notre DB](./1_Realtime_Database/exercice02.md)
+    - [Créer et afficher notre DB](.exercice01.md)
+    - [Modifier et supprimer de la data de notre DB](.exercice02.md)
