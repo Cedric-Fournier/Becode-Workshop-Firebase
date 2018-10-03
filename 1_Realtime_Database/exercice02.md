@@ -142,7 +142,7 @@ Passons maintenant au composant Storage.
 
   - [Intro](../intro.md) 
   - **Realtime Database**
-    - [Créer et afficher notre DB](./1_Realtime_Database/exercice01.md)_
-    - [Modifier et supprimer de la data de notre DB](./1_Realtime_Database/exercice02.md)
+    - [Créer et afficher notre DB](exercice01.md)_
+    - [Modifier et supprimer de la data de notre DB](exercice02.md)
   - **Storage**
     - [Utiliser le composant Storage](../2_Storage/exercice01.md)

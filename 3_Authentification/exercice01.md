@@ -68,5 +68,5 @@ Maintenant nous allons faire pareil **mais** avec Google, Facebook et GitHub. Ac
   - **Storage**
     - [Utiliser le composant Storage](../2_Storage/exercice01.md)
   - **Authentification**
-    - [Authentification avec Email & Password](./3_Authentification/exercice01.md)
-    - [Authentification avec Google, Facebook et GitHub](./3_Authentification/exercice01.md)
+    - [Authentification avec Email & Password](exercice01.md)
+    - [Authentification avec Google, Facebook et GitHub](exercice01.md)

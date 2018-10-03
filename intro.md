@@ -4,9 +4,11 @@
 
 Avant de commencer voici les liens importants !
 
-- <a href="https://firebase.google.com/" target="_blank">Google Firebase</a>
-- <a href="https://console.firebase.google.com/" target="_blank">Console Firebase</a>
-- <a href="https://firebase.google.com/docs/" target="_blank">Documentation Firebase</a>
+- [Google Firebase](https://firebase.google.com/)
+- [Console Firebase](https://console.firebase.google.com/)
+- [Documentation Firebase](https://firebase.google.com/docs/)
+
+> CTRL + clique pour l'ouvrir dans un nouvelle onglet
 
 La console permet de gérer votre (ou vos) base(s) de données.
 

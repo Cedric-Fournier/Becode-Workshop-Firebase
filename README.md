@@ -1,7 +1,7 @@
 # Workshop Firebase
 
 - **Quoi ?** : Workshop sur Firebase pendant ma formation chez BeCode.
-- **Contact** : Cedric Fournier - [Mail](cedricfournier.pro@gmail.com) - <a href="https://www.linkedin.com/in/cedric-fournier/" target="_blank">Linkedin</a> - [GitHub](https://github.com/Cedric-Fournier)
+- **Contact** : Cedric Fournier - [Mail](cedricfournier.pro@gmail.com) - [Linkedin](https://www.linkedin.com/in/cedric-fournier/) - [GitHub](https://github.com/Cedric-Fournier)
 - **Où ?** : [BeCode](https://www.becode.org/) - Johnson 2
 - **Quand ?** : 
     - *Préparation* : juin 2018
