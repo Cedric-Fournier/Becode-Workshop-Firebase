@@ -25,10 +25,50 @@ La "Clé secrète" se trouve en haut à droite, cliquez sur afficher, il va vous
 
 ![Firebase Actived Facebook](../assets/firebase-after-actived-FB.png "Firebase activation de Facebook")
 
+Maintenant il ne vous reste plus qu'a faire la connexion.
 
-
+Lier le au bouton déjà fait sur l'html.
+Bon courage, le plus laborieux est fait.
 
 ## Authentification avec GitHub
+
+
+## Règles
+Vous vous rappelez que je vous ai parlé des règles dans le Storage. Ici on va justement y toucher un petit peu.
+
+Normalement vos règles de votre RealTime Database sont comme ci dessous, sinon vous avez pas tout suivi.
+
+```javascript
+{
+  "rules": {
+    ".read": true,
+    ".write": true
+  }
+}
+```
+
+Maintenant mettez vos règles de cette facon.
+
+```javascript
+{
+  "rules": {
+    ".read": "auth != null",
+    ".write": "auth != null"
+  }
+}
+```
+
+Si vous avez compris, parfait, sinon c'est simple, il vous empeche de lire/écrire les données tant que vous n'êtes pas connecté.
+
+> Tant que auth est différent de null
+
+Voilà qui conclu le composant Authentification.
+Envie de continuer ?
+
+Passons alors à Cloud Firestore. 
+
+![Help Me](https://media.giphy.com/media/MSgJnzNSMGBc6BpGIc/giphy.gif "Help !!!")
+
 
 
 ## Table des matières
@@ -43,4 +83,4 @@ La "Clé secrète" se trouve en haut à droite, cliquez sur afficher, il va vous
     - [Authentification avec Email & Password](./3_Authentification/exercice01.md)
     - [Authentification avec Google, Facebook et GitHub](./3_Authentification/exercice01.md)
   - **Cloud Firestore**
-    - Exercice 01
+    - En Construction

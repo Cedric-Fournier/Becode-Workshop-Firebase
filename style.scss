@@ -104,16 +104,30 @@ $textAlignCenter: center;
     color: $colorSecondary;
     text-align: $textAlignCenter;
   }
+
   form {    
     text-align: $textAlignCenter;
-  }
-
-  
+  }  
 }
-.hide{
+
+.hide {
   display: none;
+}
+
+.container_storage {
+  display: grid;
+  grid-template-rows: auto;
+  font-family: $font;
+  grid-template-columns: 1fr;
+  grid-template-areas: "uploading";
+  
+
+  .uploading{
+    padding: 20px 0;
+    grid-area: uploading;
+    margin: $margin;
+    background: $colorPrincipal;
+    color: $colorSecondary;
+    text-align: $textAlignCenter;
   }
-
-
-
-
+}

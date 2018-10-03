@@ -3,32 +3,27 @@
 ## C'est quoi ?
 Le composant **Storage** permet d'upload des images, vidéos sur Firebase. Il peut être complémentaire à RealTime Database/Cloud Firestore. Si vous voulez en savoir plus, <a href="https://firebase.google.com/docs/storage/" target="_blank">cliquez ici</a>
 
+## Préparation
+
+Pour commencer, aller sur Firebase, Storage et Règles.
+Ensuite il ne vous reste plus qu'a changer les règles comme sur l'image si dessous.
+
+![Change règle](../assets/storage-regle.png "Le chemin à suivre")
+
+Ah oui faudrait peut être que je vous explique pourquoi on change les règles. Alors c'est parce que normalement on doit les faire nous même, pour qu'on puisse pas rajouter sans être connecter ou sous une certain condition. Là si c'était pour mettre en ligne par après, on ce ferait piraté en deux secondes.
+Si on a le temps on verra comment faire de bonne règles, sinon rien ne vous empeche d'aller voir celà par vous même quand vous avez le temps.
+
+Une fois celà fait, passons a l'exercice.
+
 ## Exercice
-Nous allons pas trop nous attarder sur ce composant. Pour ma part, je le trouve assez facile à utiliser.
 
-Comme exercice, je vous propose de rajouter une image a chaque personne que vous avez rajoutées dans les exercices ultérieurement.
+Utiliser Storage tout simplement est simple en lui même. Du coup je l'ai un peu corsé.
 
-Par exemple : 
+Comme vous pouvez le voir sur le html, il y a une bar de progress, du coup, quand vous mettez une image en cliquant sur "*Choisir un fichier*", déjà il doit rejoindre le Storage de la DB puis la bar de progress doit avancer par rapport a l'upload de l'image (En pur JavaScript).
 
-    Prénom : Cedric
-    Nom : Fournier
-    Anniversaire : 08/06/88
-    Ville : Bruxelles
-    E-mail : cedricfournier.pro@gmail.com
+![MOVE YOUR BODY](https://media.giphy.com/media/14qb1Uhf40ndw4/giphy.gif "MOVE YOUR BODY")
 
-    Prénom : Geraldine
-    Nom : Winand
-    Anniversaire : 04/04/86
-    Ville : Liège
-    E-mail : winand.geraldine@hotmail.com
-
-    Prénom : Antoni
-    Nom : Dalle Nogare
-    Anniversaire : 04/02/90
-    Ville : Namur
-    E-mail : antoni.dallenogare@gmail.com
-
-Assossier a chacun une image dans le storage.
+C'est tout, après on aurait pu encore plus le compliqué, lier le Storage à RealTime Database, genre mettre une image pour nos données des Voisins et nous même. Vous pouvez toujours le faire une autre fois.
 
 ## Table des matières
 

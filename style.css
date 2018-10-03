@@ -68,4 +68,18 @@
 .hide {
   display: none; }
 
+.container_storage {
+  display: grid;
+  grid-template-rows: auto;
+  font-family: Helvetica, Arial, no-serif;
+  grid-template-columns: 1fr;
+  grid-template-areas: "uploading"; }
+  .container_storage .uploading {
+    padding: 20px 0;
+    grid-area: uploading;
+    margin: 20px;
+    background: #333;
+    color: #fff;
+    text-align: center; }
+
 /*# sourceMappingURL=style.css.map */
