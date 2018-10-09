@@ -77,7 +77,7 @@ Envie de continuer ?
 
 Passons alors à Cloud Firestore. 
 
-![Help Me](https://media.giphy.com/media/MSgJnzNSMGBc6BpGIc/giphy.gif "Help !!!")
+![Help Me](https://media.giphy.com/media/phJ6eMRFYI6CQ/giphy.gif "Help !!!")
 
 
 ## Table des matières
