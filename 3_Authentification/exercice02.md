@@ -1,7 +1,5 @@
 # Deuxième Exercice sur Firebase (Authentification)
 
-## Authentification avec Google
-
 ## Authentification avec Facebook
 
 #### Préparation
@@ -30,7 +28,19 @@ Maintenant il ne vous reste plus qu'à faire la connexion.
 Liez-le au bouton déjà fait sur l'html.
 Bon courage, le plus laborieux est fait.
 
+
+
+## Authentification avec Google
+Concernant la connexion avec Google, je vous laisse chercher. Nous avons fait Facebook, qui est bien plus compliqué.
+Bon courage.
+![Good Luck](https://media.giphy.com/media/12XDYvMJNcmLgQ/giphy.gif "Good Luck !")
+
+
 ## Authentification avec GitHub
+Pour la connexion avec GitHub, je vous laisse également chercher comment faire, cela ressemble un peu a Facebook.
+Bon courage.
+
+![Good Luck BRO](https://media.giphy.com/media/hr6p5UHdDn8RO/giphy.gif "Good Luck BRO !")
 
 
 ## Règles
