@@ -8,11 +8,11 @@
     - *Première Présentation* : Mercredi 10 octobre 2018
 
 ## Ce qu'on va aborder
-Nous allons aborder ce qu'est [Firebase](https://firebase.google.com/), ainsi que différent composant qui le compose.
+Nous allons aborder ce qu'est [Firebase](https://firebase.google.com/), ainsi que différents composants qui le composent.
 Par exemple : [Realtime Database](https://firebase.google.com/docs/database/), [Authentification](https://firebase.google.com/docs/auth/), [Storage](https://firebase.google.com/docs/storage/), [Cloud Firestore](https://firebase.google.com/docs/firestore/).
 
 ## Objectif :
-Pendant ce workshop vous allez apprendre à prendre en main Firebase, "normalement" a la fin vous devriez pouvoir utiliser les différents composants pour divers projets.
+Pendant ce workshop vous allez apprendre à prendre en main Firebase, "normalement" à la fin vous devriez pouvoir utiliser les différents composants pour divers projets.
 
 ## Commencement !
 Vous êtes pret à en voir de toutes les couleurs ?
@@ -27,7 +27,7 @@ Alors [cliquez ici](intro.md).
   - Créer et afficher notre DB
   - Modifier et supprimer de la data de notre DB
 - **Storage**
-  - Premier Exercice
+  - Utiliser le composant Storage
 - **Authentification**
   - Authentification avec Email & Password
   - Authentification avec Google, Facebook et GitHub

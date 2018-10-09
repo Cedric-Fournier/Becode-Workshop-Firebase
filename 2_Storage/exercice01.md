@@ -5,25 +5,25 @@ Le composant **Storage** permet d'upload des images, vidéos sur Firebase. Il pe
 
 ## Préparation
 
-Pour commencer, aller sur Firebase, Storage et Règles.
-Ensuite il ne vous reste plus qu'a changer les règles comme sur l'image si dessous.
+Pour commencer, allez sur Firebase, Storage et Règles.
+Ensuite il ne vous reste plus qu'à changer les règles comme sur l'image ci-dessous.
 
 ![Change règle](../assets/storage-regle.png "Le chemin à suivre")
 
-Ah oui faudrait peut être que je vous explique pourquoi on change les règles. Alors c'est parce que normalement on doit les faire nous même, pour qu'on puisse pas rajouter sans être connecter ou sous une certain condition. Là si c'était pour mettre en ligne par après, on ce ferait piraté en deux secondes.
-Si on a le temps on verra comment faire de bonne règles, sinon rien ne vous empeche d'aller voir celà par vous même quand vous avez le temps.
+Ah oui faudrait peut-être que je vous explique pourquoi on change les règles. Alors c'est parce que normalement on doit les faire nous-même, pour qu'on puisse pas rajouter sans être connecté ou sous une certaine condition. Là si c'était pour mettre en ligne par après, on se ferait piraté en deux secondes.
+Si on a le temps on verra comment faire de bonne règles, sinon rien ne vous empêche d'aller voir cela par vous-même quand vous avez le temps.
 
-Une fois celà fait, passons a l'exercice.
+Une fois cela fait, passons à l'exercice.
 
 ## Exercice
 
-Utiliser Storage tout simplement est simple en lui même. Du coup je l'ai un peu corsé.
+Utiliser Storage tout simplement est simple en lui-même. Du coup je l'ai un peu corsé.
 
-Comme vous pouvez le voir sur le html, il y a une bar de progress, du coup, quand vous mettez une image en cliquant sur "*Choisir un fichier*", déjà il doit rejoindre le Storage de la DB puis la bar de progress doit avancer par rapport a l'upload de l'image (En pur JavaScript).
+Comme vous pouvez le voir sur le html, il y a une barre de progress, du coup, quand vous mettez une image en cliquant sur "*Choisir un fichier*", déjà il doit rejoindre le Storage de la DB puis la barre de progress doit avancer par rapport à l'upload de l'image (En pur JavaScript).
 
 ![MOVE YOUR BODY](https://media.giphy.com/media/14qb1Uhf40ndw4/giphy.gif "MOVE YOUR BODY")
 
-C'est tout, après on aurait pu encore plus le compliqué, lier le Storage à RealTime Database, genre mettre une image pour nos données des Voisins et nous même. Vous pouvez toujours le faire une autre fois.
+C'est tout, après on aurait pu encore plus le compliquer, lier le Storage à RealTime Database, genre mettre une image pour nos données des Voisins et nous-même. Vous pouvez toujours le faire une autre fois.
 
 ## Table des matières
 
@@ -32,6 +32,6 @@ C'est tout, après on aurait pu encore plus le compliqué, lier le Storage à Re
     - [Créer et afficher notre DB](../1_Realtime_Database/exercice01.md)_
     - [Modifier et supprimer de la data de notre DB](../1_Realtime_Database/exercice02.md)
   - **Storage**
-    - [Utiliser le composant Storage](exercice01.md)
+    - [Utiliser le composant Storage](./exercice01.md)
   - **Authentification**
     - [Authentification avec Email & Password](../3_Authentification/exercice01.md)

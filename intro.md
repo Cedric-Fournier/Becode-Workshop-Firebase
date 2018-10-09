@@ -21,7 +21,7 @@ La documentation vous servira quand vous serez bloqué ou que vous comprendrez p
 
 Allez sur le lien de la console Firebase, vous aurez peut-être à vous connecter avec Google, ensuite vous arriverez sur une page.
 
-Cliquez sur le " + Ajouter un projet " , un pop-up va s'ouvrir avec plusieurs données à remplir, nommez le par exemple prenom-nom-workshop, choissisez votre pays (Zone des données analytiques) et laisser Zone Cloud Firestore sur us-central, on utilisera Firestore un peu plus loin. Ensuite cocher les deux checkbox pour accepter leurs conditions et valider la création du projet.
+Cliquez sur le " + Ajouter un projet " , un pop-up va s'ouvrir avec plusieurs données à remplir, nommez le par exemple prenom-nom-workshop, choisissez votre pays (Zone des données analytiques) et laissez Zone Cloud Firestore sur us-central, on utilisera Firestore un peu plus loin. Ensuite cochez les deux checkbox pour accepter leurs conditions et valider la création du projet.
 
 Vous voici sur votre projet.
 
@@ -50,7 +50,7 @@ firebase.initializeApp(config);
 </script>
 ```
 
-Vous devez mettre ça entre vos balises `<head> </head>`, pensez bien à utiliser le votre, celui ci n'est qu'un exemple.
+Vous devez mettre ça entre vos balises `<head> </head>`, pensez bien à utiliser le votre, celui-ci n'est qu'un exemple.
 
 Voila nous venons de jumeler notre Firebase avec notre html(ou php, ou que sais je encore).
 
@@ -68,7 +68,7 @@ Il existe plusieurs "modules" dont Cloud Messaging, Authentication, Realtime Dat
 
 Nous nous attarderons sur Realtime Database. Pour cela cliquez sur Realtime Database dans la Documentation.
 
-Nous allons maintenant lier le module à notre projet. Je vous laisse lire si vous le souhaitez Introduction, Choose a Database(ca vous parlera des deux DB de Firebase). Apres cela allez dans Web et Get Started. Vous verrez a un moment  `const database = firebase.database();` s'est le code que vous aurez besoin pour lier le module a votre projet. Mettez le en dessous de `firebase.initializeApp(config);` que vous avez mis plus tôt.
+Nous allons maintenant lier le module à notre projet. Je vous laisse lire si vous le souhaitez Introduction, Choose a Database(ca vous parlera des deux DB de Firebase). Apres cela allez dans Web et Get Started. Vous verrez a un moment  `const database = firebase.database();` c'est le code dont vous aurez besoin pour lier le module à votre projet. Mettez-le en dessous de `firebase.initializeApp(config);` que vous avez mis plus tôt.
 
 Du coup vous devriez avoir ceci :
 
@@ -91,7 +91,7 @@ Du coup vous devriez avoir ceci :
 
 ## Petit plus !
 
-J'ai utiliser du SCSS, si vous ne vous rappellez pas de comment celà fonctionne, voici un lien : <a href="https://sass-lang.com/" target="_blank">SASS</a>
+J'ai utilisé du SCSS, si vous ne vous rappellez pas de comment cela fonctionne, voici un lien : <a href="https://sass-lang.com/" target="_blank">SASS</a>
 
 ## Table des matières
 
