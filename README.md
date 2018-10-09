@@ -16,6 +16,7 @@ Pendant ce workshop vous allez apprendre à prendre en main Firebase, "normaleme
 
 ## Commencement !
 Vous êtes pret à en voir de toutes les couleurs ?
+N'hésitez pas à liké le repo, si le workshop vous à plus. (L'étoile (Star) tout en haut)
 Alors [cliquez ici](intro.md).
 
 ![Wouhou](https://media.giphy.com/media/wcgcRnkePIUPS/giphy.gif "WOOOUUUUHHHHOOOUUU")
