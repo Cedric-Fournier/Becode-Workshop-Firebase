@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="fr" dir="ltr">
+
+<head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="../style.css">
+    <title>Workshop Google Firebase Authentification</title>
+</head>
+
+<body>
+
+    <div class="container_login">
+        <div class="Login">
+            <h1>Firebase est ton ami !</h1>
+            <h2>Login</h2>
+            <form class="connexion" action="index.html" method="post">
+                <label>Email: </label><input type="email" id="txtEmail" placeholder="Email"><br>
+                <label>Password: </label><input type="password" id="txtPassword" placeholder="Password"><br>
+                <button type="button" id="btnLogin">Log in</button>
+                <button type="button" id="btnSignUp">Sign Up</button>
+                <button id="btnLogOut" class="hide">Log Out</button>
+                <button id="withFB">Log In with FaceBook</button>
+                <button id="withGithub">Log In with GitHub</button>
+            </form>
+        </div>
+        <div id="results"></div>
+    </div>
+
+</body>
+
+</html>
